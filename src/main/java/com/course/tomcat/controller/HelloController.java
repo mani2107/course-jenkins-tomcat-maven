@@ -12,5 +12,10 @@ public class HelloController {
     String hello() {
         return "Now is " + LocalDateTime.now();
     }
+    
+     @GetMapping(value = {"/random"})
+    String hello() {
+        return "Now is " + LocalDateTime.now();
+    }
 
 }
